@@ -1,7 +1,6 @@
 # algorithm
 算法
 
-[TOC]
 
 ## 排序
 
