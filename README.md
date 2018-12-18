@@ -5,7 +5,7 @@
 
 ### 冒泡排序
 
-public int[] sort(int[] array) {
+	public int[] sort(int[] array) {
 		for(int i = 1; i < array.length; i++) {
 			boolean flag = true;
 			
