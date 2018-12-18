@@ -2,6 +2,7 @@ package com.ligz.algorithm.sort;
 
 /**
  * 冒泡
+ * 两两对比，交换位置
  * @author ligz
  */
 public class Bubble implements Sort{
