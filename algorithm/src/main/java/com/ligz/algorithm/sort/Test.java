@@ -28,6 +28,11 @@ public class Test {
 		Sort shell = new Shell();
 		System.out.println(Arrays.toString(shell.sort(array)));
 		System.out.println(Arrays.toString(shell.sort(array2)));
+		
+		System.out.println(">================归并================<");
+		Sort merge = new Merge();
+		System.out.println(Arrays.toString(merge.sort(array)));
+		System.out.println(Arrays.toString(merge.sort(array2)));
 	}
 
 }
