@@ -1,5 +1,7 @@
 package com.ligz.algorithm.sort;
 
+import java.util.Arrays;
+
 /**
  * 选择排序
  * 找出最小/最大，放置，重复
@@ -7,7 +9,8 @@ package com.ligz.algorithm.sort;
  */
 public class Selection implements Sort{
 
-	public int[] sort(int[] array) {
+	public int[] sort(int[] sourceArray) {
+		int[] array = Arrays.copyOf(sourceArray, sourceArray.length);
 		int length = array.length;
 		//N-1轮
 		for(int i = 0; i < length-1; i++) {

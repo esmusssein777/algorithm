@@ -14,11 +14,20 @@ public class Test {
 		System.out.println(Arrays.toString(bubble.sort(array)));
 		System.out.println(Arrays.toString(bubble.sort(array2)));
 		
-		
 		System.out.println(">================选择================<");
 		Sort select = new Selection();
 		System.out.println(Arrays.toString(select.sort(array)));
 		System.out.println(Arrays.toString(select.sort(array2)));
+		
+		System.out.println(">================插入================<");
+		Sort insert = new Insert();
+		System.out.println(Arrays.toString(insert.sort(array)));
+		System.out.println(Arrays.toString(insert.sort(array2)));
+		
+		System.out.println(">================希尔================<");
+		Sort shell = new Shell();
+		System.out.println(Arrays.toString(shell.sort(array)));
+		System.out.println(Arrays.toString(shell.sort(array2)));
 	}
 
 }

@@ -1,5 +1,7 @@
 package com.ligz.algorithm.sort;
 
+import java.util.Arrays;
+
 /**
  * 冒泡
  * 两两对比，交换位置
@@ -7,7 +9,9 @@ package com.ligz.algorithm.sort;
  */
 public class Bubble implements Sort{
 
-	public int[] sort(int[] array) {
+	public int[] sort(int[] sourceArray) {
+		int[] array = Arrays.copyOf(sourceArray, sourceArray.length);
+		
 		for(int i = 1; i < array.length; i++) {
 			boolean flag = true;
 			
