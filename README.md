@@ -6,7 +6,9 @@
 
 ### 冒泡排序
 
-	public int[] sort(int[] array) {
+	public int[] sort(int[] sourceArray) {
+		int[] array = Arrays.copyOf(sourceArray, sourceArray.length);
+		
 		for(int i = 1; i < array.length; i++) {
 			boolean flag = true;
 			
@@ -29,7 +31,8 @@
 
 ### 选择排序
 
-	public int[] sort(int[] array) {
+	public int[] sort(int[] sourceArray) {
+		int[] array = Arrays.copyOf(sourceArray, sourceArray.length);
 		int length = array.length;
 		//N-1轮
 		for(int i = 0; i < length-1; i++) {
@@ -50,5 +53,47 @@
 		}
 		return array;
 	}
+	
+	
+### 插入排序
+
+	public int[] sort(int[] sourceArray) {
+		int[] array = Arrays.copyOf(sourceArray, sourceArray.length);
+		for(int i = 1; i < array.length; i++) {
+			//用一个数来记录将要插入的数
+			int temp= array[i];
+			int j = i;
+			//前面的数已经有序了，只要小于前面一个数即可
+			while(j > 0 && temp < array[j - 1]) {
+				array[j] = array[j - 1];
+				j--;
+			}
+			if(j != i) {
+				array[j] = temp;
+			}
+		}
+		return array;
+	}
   
+  
+  ### 希尔排序
+  
+  	public int[] sort(int[] sourceArray) {
+		int[] array = Arrays.copyOf(sourceArray, sourceArray.length);
+		
+        for(int gap = array.length / 2; gap > 0; gap /= 2) {
+        	
+        	for(int i = gap; i < array.length; i++) {
+        		int temp = array[i];
+        		int j = i - gap;
+        		while(j >= 0 && temp < array[j]) {
+        			array[j+gap] = array[j];
+        			j -= gap;
+        		}
+        		array[j + gap] = temp;
+        	}
+        }
+
+        return array;
+    }
   
