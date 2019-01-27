@@ -7,6 +7,12 @@ import java.util.Arrays;
  * @author ligz
  */
 public class AddOne {
+	/**
+	 * 错误的答案
+	 * 转成int计算，但是不行
+	 * @param digits
+	 * @return
+	 */
 	public int[] plusOne2(int[] digits) {//这种不可以。。转成int或者long都会超出大小
 		long count = 0;
         for(int i = 0; i < digits.length; i++) {
@@ -21,7 +27,12 @@ public class AddOne {
         
         return nd;
     }
-	
+
+	/**
+	 * 自己的答案
+	 * @param digits
+	 * @return
+	 */
 	public int[] plusOne(int[] digits) {
 		if(digits[digits.length - 1] != 9) {//如果最后一个数不是9，那么加完就ok
 			digits[digits.length - 1]++;
@@ -46,11 +57,32 @@ public class AddOne {
 		//那么剩下的就是全部为9的情况
 		int[] na = new int[digits.length + 1];
 		na[0] = 1;
-		for(int i = 0; i < digits.length;i++) {
-			na[i+1] = 0;
-		}
 		return na;
     }
+
+	/**
+	 * leetcode大神解答
+	 *
+	 * @param digits
+	 * @return
+	 */
+	public int[] plusOne3(int[] digits) {
+
+		int n = digits.length;
+		for(int i=n-1; i>=0; i--) {//其实和我的思路一脉相承。。。。我擦，我就像个zz
+			if(digits[i] < 9) {
+				digits[i]++;
+				return digits;
+			}
+
+			digits[i] = 0;
+		}
+
+		int[] newNumber = new int [n+1];
+		newNumber[0] = 1;
+
+		return newNumber;
+	}
 	
 	public static void main(String[] args) {
 		int[] nums = {9,8,7,6,5,4,3,2,1,0};

@@ -25,4 +25,22 @@ public class MaxOther {
         }
         return -1;
     }
+
+	/**
+	 * O(N),O(1)
+	 * @param nums
+	 * @return
+	 */
+	public int dominantIndex2(int[] nums) {
+		int maxIndex = 0;
+		for (int i = 0; i < nums.length; ++i) {
+			if (nums[i] > nums[maxIndex])
+				maxIndex = i;
+		}
+		for (int i = 0; i < nums.length; ++i) {//确实，只需要有小于的就可以返回
+			if (maxIndex != i && nums[maxIndex] < 2 * nums[i])
+				return -1;
+		}
+		return maxIndex;
+	}
 }

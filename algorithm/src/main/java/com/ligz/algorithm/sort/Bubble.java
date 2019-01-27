@@ -15,7 +15,7 @@ public class Bubble implements Sort{
 		for(int i = 1; i < array.length; i++) {
 			boolean flag = true;
 			
-			for(int j = 0; j < array.length - i; j++) {
+			for(int j = 0; j < array.length - i; j++) {//把每一次遍历的最大或最小值放到边上去
 				if(array[j] > array[j+1]) {
 					int temp = array[j];
 					array[j] = array[j+1];
