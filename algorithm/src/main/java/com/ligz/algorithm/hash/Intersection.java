@@ -24,9 +24,9 @@ public class Intersection {
 			}
 		}
 		int[] intersection = new int[result.size()];
-		Iterator<Integer> iterator = result.iterator();
-		for(int i = 0; i < result.size(); i++){
-			intersection[i] = iterator.next();
+		int i = 0;
+		for(Integer val : result){
+			intersection[i++] = val;
 		}
 		return intersection;
 	}
