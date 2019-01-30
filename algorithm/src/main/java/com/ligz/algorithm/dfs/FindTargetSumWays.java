@@ -15,10 +15,18 @@ package com.ligz.algorithm.dfs;
  * 一共有5种方法让最终目标和为3。
  */
 public class FindTargetSumWays {
+    int count = 0;
     public int findTargetSumWays(int[] nums, int S) {
-        if(nums.length == 0) return 0;
-        int count = 0;
-        int size = (int)Math.pow(2, nums.length);
-        return 1;
+        cal(nums, 0, 0, S);
+        return count;
+    }
+
+    private void cal(int[] nums, int i, int sum, int S){
+        if(i == nums.length){
+            if(sum == S) count++;
+        }else {
+            cal(nums, i + 1, sum + nums[i], S);
+            cal(nums, i + 1, sum - nums[i], S);
+        }
     }
 }
