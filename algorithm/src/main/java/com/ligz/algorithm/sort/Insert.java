@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author ligz
  */
 public class Insert implements Sort{
-
+	@Override
 	public int[] sort(int[] sourceArray) {
 		int[] array = Arrays.copyOf(sourceArray, sourceArray.length);
 		for(int i = 1; i < array.length; i++) {

@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author ligz
  */
 public class Merge implements Sort{
-
+	@Override
 	public int[] sort(int[] sourceArray) {
 		int[] array = Arrays.copyOf(sourceArray, sourceArray.length);
 		if(array.length < 2) {
