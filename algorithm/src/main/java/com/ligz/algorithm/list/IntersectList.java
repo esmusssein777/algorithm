@@ -23,7 +23,7 @@ public class IntersectList {
 		if(headA == headB){
 			return headA;
 		}
-		while (headA != null){
+		while (headA != null){//暴力解法
 			headB = head;
 			while (headB!= null){
 				if(headA.next == headB.next){
