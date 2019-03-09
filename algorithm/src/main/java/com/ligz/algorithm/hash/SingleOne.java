@@ -23,4 +23,18 @@ public class SingleOne {
 		}
 		return set.iterator().next();
 	}
+	public int singleNumber2(int[] nums) {
+		int res = 0;
+		for (int num : nums) {//遇一个数两次不会变
+			res = res ^ num;
+		}
+		return res;
+	}
+
+	public static void main(String[] args) {
+		SingleOne singleOne = new SingleOne();
+		int[] nums = {4,1,2,1,2};
+		singleOne.singleNumber2(nums);
+	}
+
 }
