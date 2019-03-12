@@ -3,6 +3,7 @@ package com.ligz.algorithm.sort;
 import java.util.Arrays;
 
 /**
+ * 快速排序
  * @author ligz
  */
 public class Quick implements Sort {
@@ -16,23 +17,23 @@ public class Quick implements Sort {
 
 	private int[] quickSort(int[] arr, int left, int right) {
 		if (left < right) {
-			int p = pIndex(arr, left, right);
-			quickSort(arr, left, p - 1);
-			quickSort(arr, p + 1, right);
+			int pi = pIndex(arr, left, right);
+			quickSort(arr, left, pi - 1);
+			quickSort(arr, pi + 1, right);
 		}
 		return arr;
 	}
 
 	private int pIndex(int[] arr, int left, int right) {
-		int p = left;
-		int index = p + 1;
+		int pi = left;
+		int index= pi + 1;
 		for (int i = index; i <= right; i++) {
-			if (arr[i] < arr[p]) {
+			if (arr[i] < arr[pi]) {
 				swap(arr, i, index);
 				index++;
 			}
 		}
-		swap(arr, p, index - 1);
+		swap(arr, pi, index - 1);
 		return index - 1;
 	}
 
