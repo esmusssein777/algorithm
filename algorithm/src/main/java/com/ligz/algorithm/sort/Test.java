@@ -33,6 +33,8 @@ public class Test {
 		Sort merge = new Merge();
 		System.out.println(Arrays.toString(merge.sort(array)));
 		System.out.println(Arrays.toString(merge.sort(array2)));
+
+		String s = "asd";
 	}
 
 }
