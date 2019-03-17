@@ -19,4 +19,9 @@ public class ClimbStairs {
         return nums[n];
     }
 
+    public static void main(String[] args) {
+        ClimbStairs c = new ClimbStairs();
+        System.out.println(c.climbStairs(10));
+    }
+
 }
