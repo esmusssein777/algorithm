@@ -7,7 +7,7 @@ package com.ligz.offer;
  * author:ligz
  */
 public class Match {
-    //i cant understand
+    //这个我还真没太懂
     public boolean match(char[] str, char[] pattern) {
         int m = str.length, n = pattern.length;
         boolean[][] dp = new boolean[m + 1][n + 1];
