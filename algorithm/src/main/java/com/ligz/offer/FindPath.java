@@ -28,6 +28,6 @@ public class FindPath {
             search(root.right, target, list);
         }
 
-        list.remove(list.size() - 1);
+        list.remove(list.size() - 1);//很容易忘记，往回遍历时必须放出来
     }
 }

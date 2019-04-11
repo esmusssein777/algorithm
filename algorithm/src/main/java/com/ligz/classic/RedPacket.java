@@ -1,5 +1,7 @@
 package com.ligz.classic;
 
+import com.sun.org.apache.regexp.internal.RE;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -9,135 +11,91 @@ import java.util.List;
  * author:ligz
  */
 public class RedPacket {
+    private final static int MAX_MONEY = 200 * 100;//最大的红包是 200 元，单位是分
+
+    private final static int MIN_MONEY = 1;//最小的红包是 1 分
+
+    private final static int LESS = -1;//小于最小值
+
+    private final static int MORE = -2;//大于最大值
+
+    private final static int SUCCESS = 1;//正常红包值
+
+    private final static double TIMES = 2.0f;//最大的红包不能大于平均值的 2 倍
+
+    private int sum = 0;//重新计算的次数
 
     /**
-     * 生成红包最小值 1分
+     * 发红包
+     * @param money 总金额
+     * @param count 红包个数
+     * @return
      */
-    private static final int MIN_MONEY = 1;
-
-    /**
-     * 生成红包最大值 200人民币
-     */
-    private static final int MAX_MONEY = 200 * 100;
-
-    /**
-     * 小于最小值
-     */
-    private static final int LESS = -1;
-    /**
-     * 大于最大值
-     */
-    private static final int MORE = -2;
-
-    /**
-     * 正常值
-     */
-    private static final int OK = 1;
-
-    /**
-     * 最大的红包是平均值的 TIMES 倍，防止某一次分配红包较大
-     */
-    private static final double TIMES = 2.1F;
-
-    private int recursiveCount = 0;
-
     public List<Integer> splitRedPacket(int money, int count) {
-        List<Integer> moneys = new LinkedList<>();
-
-        //金额检查，如果最大红包 * 个数 < 总金额；则需要调大最小红包 MAX_MONEY
-        if (MAX_MONEY * count <= money) {
-            System.err.println("请调大最小红包金额 MAX_MONEY=[" + MAX_MONEY + "]");
-            return moneys ;
+        List<Integer> packet = new LinkedList<>();
+        if (MAX_MONEY * count < money) {
+            System.err.println("最大的红包值不能超过200");
+            return packet;
         }
 
-
-        //计算出最大红包
+        //计算出最大的红包金额
         int max = (int) ((money / count) * TIMES);
         max = max > MAX_MONEY ? MAX_MONEY : max;
 
+        //随机发红包
         for (int i = 0; i < count; i++) {
-            //随机获取红包
-            int redPacket = randomRedPacket(money, MIN_MONEY, max, count - i);
-            moneys.add(redPacket);
-            //总金额每次减少
-            money -= redPacket;
+            int number = randomPacket(money, MIN_MONEY, max, count - i);
+            money -= number;
+            packet.add(number);
         }
-
-        return moneys;
-    }
-
-    private int randomRedPacket(int totalMoney, int minMoney, int maxMoney, int count) {
-        //只有一个红包直接返回
-        if (count == 1) {
-            return totalMoney;
-        }
-
-        if (minMoney == maxMoney) {
-            return minMoney;
-        }
-
-        //如果最大金额大于了剩余金额 则用剩余金额 因为这个 money 每分配一次都会减小
-        maxMoney = maxMoney > totalMoney ? totalMoney : maxMoney;
-
-        //在 minMoney到maxMoney 生成一个随机红包
-        int redPacket = (int) (Math.random() * (maxMoney - minMoney) + minMoney);
-
-        int lastMoney = totalMoney - redPacket;
-
-        int status = checkMoney(lastMoney, count - 1);
-
-        //正常金额
-        if (OK == status) {
-            return redPacket;
-        }
-
-        //如果生成的金额不合法 则递归重新生成
-        if (LESS == status) {
-            recursiveCount++;
-            System.out.println("recursiveCount==" + recursiveCount);
-            return randomRedPacket(totalMoney, minMoney, redPacket, count);
-        }
-
-        if (MORE == status) {
-            recursiveCount++;
-            System.out.println("recursiveCount===" + recursiveCount);
-            return randomRedPacket(totalMoney, redPacket, maxMoney, count);
-        }
-
-        return redPacket;
+        return packet;
     }
 
     /**
-     * 校验剩余的金额的平均值是否在 最小值和最大值这个范围内
-     *
-     * @param lastMoney
+     * 随机生成红包数额
+     * @param total 剩下的金额
+     * @param min 最小值
+     * @param max 最大值
+     * @param count 剩下的红包个数
+     * @return
+     */
+    private int randomPacket(int total, int min, int max, int count) {
+        if (count == 1) return total;//剩下一个红包就全部返回
+        if (min == max) return min;
+
+        max = max > total ? total : max;//如果总金额数足够多，则最大的数是总的金额取随机数，如果不够多，那么取 max
+
+        int number = (int) (Math.random() * (max - min) + min);//计算随机数作为红包
+
+        int lastNumber = total - number;//剩下的钱
+
+        int status = check(lastNumber, count);//计算剩下的钱平均值是否正常
+
+        if (status == SUCCESS) return number;
+        if (status == LESS) {
+            sum++;
+            System.out.println("sum == " + sum);
+            return randomPacket(total, min, number, count);
+        }
+        if (status == MORE) {
+            sum++;
+            System.out.println("sum == " + sum);
+            return randomPacket(total, number, max, count);
+        }
+        return number;
+    }
+
+    /**
+     * 计算剩下的钱平均值是否正常
+     * @param lastNumber
      * @param count
      * @return
      */
-    private int checkMoney(int lastMoney, int count) {
-        double avg = lastMoney / count;
-        if (avg < MIN_MONEY) {
-            return LESS;
-        }
-
-        if (avg > MAX_MONEY) {
-            return MORE;
-        }
-
-        return OK;
-    }
-
-
-    public static void main(String[] args) {
-        RedPacket redPacket = new RedPacket();
-        List<Integer> redPackets = redPacket.splitRedPacket(20000, 100);
-        System.out.println(redPackets);
-
-        int sum = 0;
-        for (Integer red : redPackets) {
-            sum += red;
-        }
-        System.out.println(sum);
+    private int check(int lastNumber, int count) {
+        double avg = lastNumber / count;
+        if (avg < MIN_MONEY) return LESS;
+        if (avg > MAX_MONEY) return MORE;
+        return SUCCESS;
     }
 
 }

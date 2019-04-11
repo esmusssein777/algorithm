@@ -23,7 +23,7 @@ public class InversePairs {
             copy[start] = array[start];
             return 0;
         }
-        int mid = (start+end)>>1;
+        int mid = (start+end)>>1;//除2
         int leftCount = mergeCount(copy, array, start, mid)%1000000007;
         int rightCount = mergeCount(copy, array, mid+1, end)%1000000007;
 
