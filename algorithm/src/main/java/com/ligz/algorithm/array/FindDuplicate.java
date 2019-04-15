@@ -1,6 +1,7 @@
 package com.ligz.algorithm.array;
 
 /**
+ * 寻找重复的
  * author:ligz
  */
 public class FindDuplicate {
