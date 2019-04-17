@@ -35,19 +35,21 @@ public class PrefixStr {
 	}
 
 	/**
-	 * 官方
+	 * 简介版
 	 * @param strs
 	 * @return
 	 */
 	public String longestCommonPrefix2(String[] strs) {
-		if (strs.length == 0) return "";
-		String prefix = strs[0];
-		for (int i = 1; i < strs.length; i++)
-			while (strs[i].indexOf(prefix) != 0) {//当前缀不为索引0时，就将长度-1.
-				prefix = prefix.substring(0, prefix.length() - 1);
-				if (prefix.isEmpty()) return "";
+		//重头到尾会出现某个index大的情况，所以我们用减的方式
+		if (strs == null || strs.length == 0) return "";
+		String pre = strs[0];
+		for (int i = 0; i < strs.length; i++) {
+			while (strs[i].indexOf(pre) != 0) {
+				pre = pre.substring(0, pre.length() - 1);
+				if (pre.length() == 0) return "";
 			}
-		return prefix;
+		}
+		return pre;
 	}
 	/**
 	 * 官方2
