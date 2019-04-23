@@ -7,14 +7,12 @@ package com.ligz.offer;
  */
 public class JumpFloor {
     public int JumpFloor(int target) {//其实就是斐波那契，不同的是num[0] = 1
-        int[] nums = new int[target + 1];
-        nums[0] = 1;
-        nums[1] = 1;
+        int[] dp = new int[target + 1];
+        dp[0] = 1;
+        dp[1] = 1;
         for (int i = 2; i < target + 1; i++) {
-            if (nums[i] == 0) {
-                nums[i] = nums[i - 1] + nums[i - 2];
-            }
+            dp[i] = dp[i - 1] + dp[i - 2];
         }
-        return nums[target];
+        return dp[target];
     }
 }

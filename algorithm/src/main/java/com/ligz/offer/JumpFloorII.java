@@ -1,6 +1,5 @@
 package com.ligz.offer;
 
-import java.util.Arrays;
 
 /**
  * 变态跳台阶
@@ -9,17 +8,15 @@ import java.util.Arrays;
  */
 public class JumpFloorII {
     public int JumpFloorII(int target) {
-        int[] nums = new int[target + 1];
-        Arrays.fill(nums, 0);
-        nums[0] = 1;
-        nums[1] = 1;
+        int[] dp = new int[target + 1];
+        dp[0] = 1;
+        dp[1] = 1;
         for (int i = 2; i < target + 1; i++) {
-            if (nums[i] != 0) continue;
             for (int j = 0; j < i; j++) {
-                nums[i] += nums[j];
+                dp[i] += dp[j];
             }
         }
-        return nums[target];
+        return dp[target];
     }
 
     public static void main(String[] args) {
