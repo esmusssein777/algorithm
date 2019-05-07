@@ -16,9 +16,9 @@ public class FirstNotRepeatingChar {
         for (char s : c) {
             chars[s]++;
             queue.offer(s);
-            //当第一个有重复时，poll直到第一个不重复
-            while (!queue.isEmpty() && chars[queue.peek()] > 1) queue.poll();
         }
+        //当第一个有重复时，poll直到第一个不重复
+        while (!queue.isEmpty() && chars[queue.peek()] > 1) queue.poll();
         if (queue.isEmpty()) return -1;
         return str.indexOf(queue.peek());
     }
