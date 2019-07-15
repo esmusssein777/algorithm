@@ -28,7 +28,7 @@ public class BinarySum {
 
 	public static void main(String[] args) {
 		BinarySum s = new BinarySum();
-		s.addBinary("1010","1011");
+		s.addBinary("11","1");
 	}
 
 }

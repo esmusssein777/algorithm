@@ -15,6 +15,22 @@ import java.util.Map;
  * 所以返回 [0, 1]
  */
 public class TwoSum {
+	public int[] twoSum4(int[] numbers, int target) {
+		int m = 0, n = numbers.length - 1;
+		while (m < n) {
+			int count = numbers[m] + numbers[n];
+			if (count < target) {
+				m++;
+			} else if (count > target) {
+				n--;
+			} else {
+				int[] res = {m + 1, n + 1};
+				return res;
+			}
+		}
+		return new int[0];
+	}
+
 	public int[] twoSum(int[] nums, int target) {//非排序
 		if(nums == null || nums.length < 2){
 			return new int[2];

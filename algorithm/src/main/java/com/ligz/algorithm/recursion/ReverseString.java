@@ -31,27 +31,14 @@ public class ReverseString {
         reverse(s, left + 1, right - 1);
     }
 
-
-    /**
-     *  迭代的方法获取
-     * 	public String reverseString(String s) {
-     * 		if(s == null || "".equals(s)){
-     * 			return "";
-     *                }
-     * 		char[] str = s.toCharArray();
-     * 		int i = 0;
-     * 		int j = s.length() - 1;
-     * 		while (i < j){
-     * 			swap(str, i, j);
-     * 			i++;
-     * 			j--;
-     *        }
-     * 		return new String(str);* 	}
-     *
-     * 	private void swap(char[] str, int i, int j){
-     * 		char s = str[i];
-     * 		str[i] = str[j];
-     * 		str[j] = s;
-     * 	}
-     */
+    public void reverseString2(char[] s) {
+        int m = 0, n = s.length - 1;
+        while (m < n) {
+            char temp = s[m];
+            s[m] = s[n];
+            s[n] = temp;
+            m++;
+            n--;
+        }
+    }
 }

@@ -31,6 +31,23 @@ public class Continuous {
 		return max;
 	}
 
+	//需要注意的是left = -1.防止开头出现 1 的情况
+	public int findMaxConsecutiveOnes3(int[] nums) {
+		int max = 0, left = -1, right = 0;
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] == 1) {
+				right = i;
+			} else {
+				left = i;
+			}
+			if (right - left > 0) {
+				max = Math.max(max, right - left);
+			}
+		}
+		return max;
+	}
+
+
 	public int findMaxConsecutiveOnes2(int[] nums) {
 		int maxHere = 0, max = 0;
 		for (int n : nums)
