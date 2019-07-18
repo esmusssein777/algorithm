@@ -23,7 +23,7 @@ public class LRUCache {
         map.put(key, value);
     }
 
-    private static class LRUCacheMap<K, V> extends LinkedHashMap<K, V> {
+    private class LRUCacheMap<K, V> extends LinkedHashMap<K, V> {
         int maxCapacity;
 
         LRUCacheMap(int maxCapacity) {

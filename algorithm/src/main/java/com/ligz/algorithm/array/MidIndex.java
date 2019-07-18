@@ -44,9 +44,12 @@ public class MidIndex {
 
 
 	/**
-	 * 官方解答 Time=O(n),Space=O(1)
-	 * @param nums
-	 * @return
+	 * 目标：如何返回中心，如何在复杂度上减少
+	 * 分析：像上面那样的解法是肯定是不行的，想要时间复杂度简单，就需要先算一遍 count，才可能在 O(n)解决
+	 * 错误：用了除法，不行，因为 5 / 2 这种会出现错误。
+	 * 错误：在大于的时候做了判断 break，在数组为负数的时候错误
+	 * 关键：复杂度需要低，而且在做之前考虑不同的情况
+	 * Time=O(n),Space=O(1)
 	 */
 	public int pivotIndex2(int[] nums) {
 		int sum = 0, leftsum = 0;

@@ -1,10 +1,23 @@
 package com.ligz.algorithm.array.doublepointer;
 
+import java.util.Arrays;
+
 /**
  * 数组拆分
  * author:ligz
  */
 public class SplitMatrix {
+
+	public int arrayPairSum2(int[] nums) {
+		Arrays.sort(nums);
+		int count = 0;
+		for (int i = 0; i < nums.length; i += 2) {
+			count += nums[i];
+		}
+		return count;
+	}
+
+
 	public int arrayPairSum(int[] nums) {
 		int count = 0;//总数
 		//数组没有排序，先排序

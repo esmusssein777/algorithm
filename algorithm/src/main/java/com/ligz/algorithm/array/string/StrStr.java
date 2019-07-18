@@ -1,7 +1,10 @@
 package com.ligz.algorithm.array.string;
 
 /**
+ * 实现strStr()
  * 查找字符串
+ * 输入: haystack = "hello", needle = "ll"
+ * 输出: 2
  * author:ligz
  */
 public class StrStr {
