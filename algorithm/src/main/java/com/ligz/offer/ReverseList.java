@@ -21,4 +21,16 @@ public class ReverseList {
         }
         return head;
     }
+
+    /**
+     * 递归法，比较麻烦
+     * 详解：https://leetcode-cn.com/explore/orignial/card/recursion-i/257/recurrence-relation/1209/
+     */
+    public ListNode reverseList2(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode p = reverseList2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return p;
+    }
 }

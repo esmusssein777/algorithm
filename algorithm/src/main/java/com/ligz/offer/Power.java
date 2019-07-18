@@ -23,4 +23,59 @@ public class Power {
         }
         return flag ? 1 / pow : pow;
     }
+
+    /**
+     * 上面的代码还是有问题，int 转为 long
+     * 问题出在 n = - n 上，数值范围是 [−2^31, 2^31 − 1]
+     */
+    public double myPow2(double x, int n) {//需要把 int 转为 long ，否则会栈溢出
+        boolean flag = false;
+        if (n < 0) {
+            flag = true;
+            n = -n;
+        }
+        double result = fastPow(x, n);
+
+        return flag ? 1 / result : result;
+    }
+
+    public double fastPow(double x, long n) {
+        if (n == 0) return 1;
+        if (n == 1) return x;
+        double result =  fastPow(x * x, n / 2);
+        if (n % 2 != 0) {
+            result = x * result;
+        }
+        return result;
+    }
+
+
+    /**
+     * 自己的解法，没有必要这样，只需要判断是奇次方还是偶次方在最后再乘一次即可
+     * @param x
+     * @param n
+     * @return
+     */
+    public double myPow(double x, int n) {
+        if (n == 0) return 1;
+        boolean flag = false;
+        if (n < 0) {
+            flag = true;
+            n = -n;
+        }
+        x = pow(x, n);
+        if (flag) {
+            return 1 / x;
+        }
+        return x;
+    }
+
+    public double pow(double x, int n) {
+        if (n == 1) return x;
+        if (n % 2 == 0) {
+            return pow(x * x, n / 2);
+        } else {
+            return x * pow(x, n - 1);
+        }
+    }
 }

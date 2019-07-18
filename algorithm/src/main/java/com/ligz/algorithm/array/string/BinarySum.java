@@ -26,6 +26,7 @@ public class BinarySum {
 		return sb.reverse().toString();
 	}
 
+
 	public static void main(String[] args) {
 		BinarySum s = new BinarySum();
 		s.addBinary("1010","1011");

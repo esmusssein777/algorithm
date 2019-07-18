@@ -17,6 +17,7 @@ public class ReverseLinkList {
 		}
 	}
 
+
 	public ListNode reverseList(ListNode head) {
 		ListNode headNode = head;//头部节点
 		ListNode curNode = head;//当前遍历的节点
