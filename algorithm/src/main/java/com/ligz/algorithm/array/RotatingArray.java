@@ -44,6 +44,30 @@ public class RotatingArray {
 		}
 	}
 
+	/**
+	 * 目标：如何才能在 Time=O(n),Space=O(1)的情况解决右移 k 位
+	 * 分析：发现右移可以通过旋转数组来实现，那是先旋转整个数组还是先旋转一部分呢？都可以，不过解法有区别
+	 * 错误：没有将 k % len,疏忽了这种情况
+	 * 关键：将右移问题变成旋转数组问题
+	 * Time=O(n),Space=O(1)
+	 */
+	public void rotate3(int[] nums, int k) {
+		int len = nums.length;
+		int index = len - (k % len)  - 1;
+		swap(nums, 0, index);
+		swap(nums, index + 1, len - 1);
+		swap(nums, 0, len - 1);
+	}
+
+	private void swap(int[] nums, int left, int right) {
+		while (left < right) {
+			int temp = nums[left];
+			nums[left] = nums[right];
+			nums[right] = temp;
+			left++;right--;
+		}
+	}
+
 
 
 	public static void main(String[] args) {
