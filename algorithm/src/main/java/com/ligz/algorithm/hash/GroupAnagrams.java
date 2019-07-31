@@ -15,6 +15,27 @@ import java.util.*;
  * ]
  */
 public class GroupAnagrams {
+    /**
+     * 目标：将字母异位词组合在一起
+     * 分析：将他们分成 char 类型排序，再放入 map 映射中
+     * 错误：将 char 变成 String 的时候用了 toString(),这样是不行的，会变成哈希值，需要使用 String.valueOf()
+     * 关键：想到排序可以解决问题
+     */
+    public List<List<String>> groupAnagrams2(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        for (String str : strs) {
+            char[] ch = str.toCharArray();
+            Arrays.sort(ch);
+            String s = String.valueOf(ch);
+            if (!map.containsKey(s)) {
+                map.put(s, new ArrayList());
+            }
+            map.get(s).add(str);
+        }
+
+        return new ArrayList<List<String>>(map.values());
+    }
+
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> result = new ArrayList<>();
         Map<String, Integer> map = new HashMap<>();
@@ -39,6 +60,7 @@ public class GroupAnagrams {
                 index++;
             }
         }
+
         return result;
     }
 }

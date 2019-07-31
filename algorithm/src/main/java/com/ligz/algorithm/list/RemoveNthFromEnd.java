@@ -60,4 +60,21 @@ public class RemoveNthFromEnd {
 		first.next = first.next.next;
 		return dummy.next;
 	}
+
+	//第二次写的水平，感觉还可以。。。
+	public ListNode removeNthFromEnd3(ListNode head, int n) {
+		ListNode node = head;
+		ListNode delNode = head;
+		while (n != 1) {//先走到第 n 个节点
+			node = node.next;
+			n--;
+		}
+		if (node.next == null) return head.next;//如果是删除头节点
+		while (node.next.next != null) {//再从头和 n 一起走到最后，得到需要删除点前面的节点
+			delNode = delNode.next;
+			node = node.next;
+		}
+		delNode.next = delNode.next.next;//主要是需要删除第 n 个点，只能得到这个点前面的节点
+		return head;
+	}
 }
