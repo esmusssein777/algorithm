@@ -39,4 +39,32 @@ public class ReConstructBinaryTree {
         root.right = binaryTree(pre, pl + leftTreeSize + 1, pr, inIndex + 1);//前序数组分两部分 [pl+1, pl + leftTreeSize]和[pl + leftTreeSize, pr].
         return root;
     }
+
+    /**
+     * 第二种解法
+     * 目标：如何从前序遍历和中序遍历的结果构造二叉树
+     * 分析：这一类题需要我们把中序链表放入 map 中，根据前序序的顺序来递归出每个节点的左子树和右子树
+     * 错误：这题需要先遍历左子树再遍历右子树，不要乱顺序
+     * 关键：以中序为基础，构建出每个节点的左子树和右子树
+     */
+    class Solution2 {
+        Map<Integer, Integer> map = new HashMap<>();
+        int psize = 0;
+
+        public TreeNode buildTree(int[] preorder, int[] inorder) {
+            for (int i = 0; i < inorder.length; i++) {
+                map.put(inorder[i], i);
+            }
+            return build(preorder, 0, preorder.length - 1);
+        }
+
+        public TreeNode build(int[] pre, int inl, int inr) {
+            if (inl > inr) return null;
+            TreeNode node = new TreeNode(pre[psize++]);
+            int index = map.get(node.val);
+            node.left = build(pre, inl, index - 1);
+            node.right = build(pre, index + 1, inr);
+            return node;
+        }
+    }
 }
