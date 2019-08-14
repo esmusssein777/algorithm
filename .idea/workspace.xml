@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e4c7fe9-80e9-453c-adc7-276ebed44802" name="Default Changelist" comment="BFS和DFS">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/main.iml" afterDir="false" />
+    <list default="true" id="6e4c7fe9-80e9-453c-adc7-276ebed44802" name="Default Changelist" comment="update algorithm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,101 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Permutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintMinNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/NumberOf1Between1AndN.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/FirstNotRepeatingChar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/InversePairs.java">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/FindPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintListFromTailToHead.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintFromTopToBottom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="148">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Power.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3278">
-              <caret line="177" column="19" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -133,9 +44,31 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>杨辉</find>
       <find>asLis</find>
       <find>reverseString</find>
+      <find>小矩形</find>
+      <find>矩</find>
+      <find>合并两个有序链表</find>
+      <find>合并</find>
+      <find>杨辉</find>
+      <find>反转</find>
+      <find>斐波那契</find>
+      <find>pow</find>
+      <find>二进制求和</find>
+      <find>strStr(</find>
+      <find>长度最小的子数组</find>
+      <find>旋转数组</find>
+      <find>翻转字符串里的单词</find>
+      <find>reverseWords</find>
+      <find>removeDuplicates</find>
+      <find>removeNthFromEnd</find>
+      <find>删除链表</find>
+      <find>回文链表</find>
+      <find>groupAnagrams</find>
+      <find>公共祖先</find>
+      <find>threeSum</find>
+      <find>中序</find>
+      <find>FindPath</find>
     </findStrings>
     <replaceStrings>
       <replace>max</replace>
@@ -148,42 +81,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/LongestConsecutive.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/LongestSubstring.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/sort/Quick.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/hash/LRUCache.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/hash/Test.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dfs/Partition.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/bfs/NumSquares.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/sort/Test.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dfs/LetterCombinations.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Find.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/ReplaceSpace.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/datastructure/list/ListNode.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintListFromTailToHead.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Test.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/datastructure/queue/MyPriorityQueue.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/sort/Heap.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/ReConstructBinaryTree.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/MinNumberInRotateArray.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/ClimbStairs.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/JumpFloor.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/JumpFloorII.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/NumberOf1.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Power.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/ReOrderArray.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/FindKthToTail.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/ReverseList.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Merge.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/HasSubtree.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Mirror.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintMatrix.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/MinStack.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/IsPopOrder.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintFromTopToBottom.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/VerifySquenceOfBST.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/LowestCommonAncestor.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/FindPath.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/datastructure/tree/RandomListNode.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/datastructure/list/RandomListNode.java" />
@@ -193,20 +91,63 @@
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/MoreThanHalfNum.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/GetLeastNumbers_Solution.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/GetLeastNumbers.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/.gitignore" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/FindGreatestSumOfSubArray.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/NumberOf1Between1AndN.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/FirstNotRepeatingChar.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintMinNumber.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/InversePairs.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/RectCover.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/.gitignore" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/MergeList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/readme.md" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/complex/readme.md" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/comprehensive/readme.md" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/readme.md" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/recursion/递归.md" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/recursion/SwapPairs.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/recursion/ReverseString.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/PascalTriangle.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/PascalTriangleII.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/ReverseLinkList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/ReverseList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Power.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dfs/KthGrammar.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/string/BinarySum.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/string/StrStr.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/doublepointer/MinLength.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/RotatingArray.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/string/ReverseWords.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/string/RemoveDuplicates.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/RemoveNthFromEnd.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/RotateRight.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/hash/GroupAnagrams.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/hash/FindDuplicateSubtrees.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/LowestCommonAncestor.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/comprehensive/ThreeSum.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/complex/IsAnagram.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/complex/NumSimilarGroups.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/MergeTwoLists.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/ReConstructBinaryTree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/BuildTree.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/Test.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/FindPath.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/environment/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\environment\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -216,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,47 +180,57 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ligz" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ligz" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="dfs" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ligz" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ligz" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="comprehensive" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553589570177" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565788786958" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring/spring-framework" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ligz.top" />
       <recent name="com.ligz.algorithm.tree.bst" />
       <recent name="com.ligz.algorithm.tree.ba" />
       <recent name="com.ligz.algorithm.array" />
       <recent name="com.ligz.datastructure" />
-      <recent name="com.ligz.algorithm" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ligz.datastructure.list" />
@@ -288,6 +238,7 @@
       <recent name="com.ligz.algorithm.queue" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\algorithm\algorithm\src\main\java\com\ligz\temp" />
       <recent name="E:\project\IDEAWorkspace\algorithm\algorithm\src\main" />
     </key>
   </component>
@@ -303,33 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InversePairs">
-    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ligz.algorithm.dp.ClimbStairs" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ligz.algorithm.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ligz.offer.Fibonacci" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ligz.offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NumSimilarGroups">
     <configuration name="InversePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ligz.offer.InversePairs" />
       <module name="main" />
@@ -356,6 +281,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ligz.algorithm.dfs.KthGrammar" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ligz.algorithm.dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumSimilarGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ligz.top.complex.NumSimilarGroups" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ligz.top.complex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ligz.offer.Permutation" />
       <module name="main" />
@@ -371,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumSimilarGroups" />
+        <item itemvalue="Application.KthGrammar" />
         <item itemvalue="Application.InversePairs" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.JumpFloorII" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.ClimbStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -417,6 +368,28 @@
       <workItem from="1553484899792" duration="658000" />
       <workItem from="1553496219809" duration="48000" />
       <workItem from="1553514477912" duration="9139000" />
+      <workItem from="1553865037415" duration="168000" />
+      <workItem from="1556498218181" duration="616000" />
+      <workItem from="1556868531118" duration="211000" />
+      <workItem from="1557113646787" duration="808000" />
+      <workItem from="1557122499448" duration="7392000" />
+      <workItem from="1557134750680" duration="4686000" />
+      <workItem from="1560173659424" duration="4387000" />
+      <workItem from="1560678743108" duration="102000" />
+      <workItem from="1560766789282" duration="599000" />
+      <workItem from="1561983255964" duration="11282000" />
+      <workItem from="1562591341200" duration="976000" />
+      <workItem from="1562676549188" duration="4745000" />
+      <workItem from="1562764338292" duration="2075000" />
+      <workItem from="1563283781714" duration="1163000" />
+      <workItem from="1563447817427" duration="4093000" />
+      <workItem from="1563499437968" duration="1201000" />
+      <workItem from="1563601937600" duration="770000" />
+      <workItem from="1563603280791" duration="2591000" />
+      <workItem from="1563969904864" duration="4439000" />
+      <workItem from="1564399845675" duration="12225000" />
+      <workItem from="1565090918438" duration="9998000" />
+      <workItem from="1565616792380" duration="2203000" />
     </task>
     <task id="LOCAL-00001" summary="对数组的算法更新">
       <created>1547018121162</created>
@@ -656,11 +629,88 @@
       <option name="project" value="LOCAL" />
       <updated>1553561077282</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="更新">
+      <created>1557122767981</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1557122767982</updated>
+    </task>
+    <task id="LOCAL-00036" summary="新一轮的训练开始了">
+      <created>1560217796380</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1560217796380</updated>
+    </task>
+    <task id="LOCAL-00037" summary="连链表">
+      <created>1560678760312</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1560678760312</updated>
+    </task>
+    <task id="LOCAL-00038" summary="递归">
+      <created>1561988015408</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1561988015408</updated>
+    </task>
+    <task id="LOCAL-00039" summary="算法更新">
+      <created>1563602057238</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1563602057238</updated>
+    </task>
+    <task id="LOCAL-00040" summary="算法更新">
+      <created>1563612178103</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1563612178103</updated>
+    </task>
+    <task id="LOCAL-00041" summary="algorithm update">
+      <created>1564570453191</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1564570453191</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update tree">
+      <created>1564728100631</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1564728100631</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update top algorithm">
+      <created>1565098074763</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1565098074763</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update algorithm">
+      <created>1565184023654</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1565184023654</updated>
+    </task>
+    <task id="LOCAL-00045" summary="前序、中序、后序构建二叉树的解法">
+      <created>1565616830254</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1565616830254</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424519000" />
+    <option name="totallyTimeSpent" value="501249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -672,10 +722,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29021448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -684,8 +734,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20585048" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.18743229" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.20113315" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.40084985" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -693,9 +743,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.1375948" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.08017335" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" visible="true" weight="0.20113315" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -705,18 +754,13 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="对数组的算法更新" />
-    <MESSAGE value="对算法更新" />
-    <MESSAGE value="BFS和DFS" />
-    <MESSAGE value="BFS算法的更新" />
-    <MESSAGE value="修改栈" />
-    <MESSAGE value="栈" />
     <MESSAGE value="树的遍历" />
     <MESSAGE value="二叉树算法和搜索二叉树" />
     <MESSAGE value="N叉树" />
@@ -730,11 +774,19 @@
     <MESSAGE value="dp" />
     <MESSAGE value="递归更新" />
     <MESSAGE value="后序遍历树" />
-    <MESSAGE value="算法更新" />
     <MESSAGE value="剑指offer" />
     <MESSAGE value="从1到n的出现次数" />
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="新一轮的训练开始了" />
+    <MESSAGE value="连链表" />
+    <MESSAGE value="递归" />
+    <MESSAGE value="算法更新" />
+    <MESSAGE value="algorithm update" />
+    <MESSAGE value="update tree" />
+    <MESSAGE value="update top algorithm" />
+    <MESSAGE value="update algorithm" />
+    <MESSAGE value="前序、中序、后序构建二叉树的解法" />
+    <option name="LAST_COMMIT_MESSAGE" value="前序、中序、后序构建二叉树的解法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,7 +799,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/FindDuplicate.java</url>
-          <line>8</line>
+          <line>9</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -755,386 +807,373 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/IsPopOrder.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/GetLeastNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Mirror.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/RotatingArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/SpiralMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/VerifySquenceOfBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/bst/SearchBST.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/sort/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="748">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/bst/IsValidBST.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="836">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/bst/InsertIntoBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/bst/BSTIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/bst/DeleteNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/InorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/IsSymmetric.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/sort/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/kthSmallest.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/sort/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="484">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/LevelOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/recursion/递归.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="176">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/LowestCommonAncestor.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/MergeList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/PostorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/PreorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/MaxDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/HasPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/FindPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/datastructure/list/RandomListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Clone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Convert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/ClimbStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/IntegerBreak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/LengthOfLIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/LongestConsecutive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/LongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/MinPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dp/Rob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dfs/FindTargetSumWays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dfs/CloneGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dfs/LetterCombinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dfs/NumIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dfs/Partition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/.gitignore">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/bfs/OpenLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="226">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/MoreThanHalfNum.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/recursion/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/recursion/SwapPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/PascalTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/PascalTriangleII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/GetLeastNumbers.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/ReverseLinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="594">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/FindGreatestSumOfSubArray.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/ReverseList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="660">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3278">
-          <caret line="177" column="19" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/NumberOf1Between1AndN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintListFromTailToHead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintFromTopToBottom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="462">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Power.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/PrintMinNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/FirstNotRepeatingChar.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/dfs/KthGrammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/temp/sharebar.md" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/string/BinarySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/string/StrStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/doublepointer/MinLength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/RotatingArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/RemoveElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/string/RemoveDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/array/string/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/bytedance/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/DeleteNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/RemoveNthFromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/list/RotateRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/hash/GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/hash/FindDuplicateSubtrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/InversePairs.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="176">
+            <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/algorithm/tree/LowestCommonAncestor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="317">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/comprehensive/readme.md" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/complex/readme.md" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/readme.md" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="2065" column="18" selection-start-line="2065" selection-start-column="18" selection-end-line="2065" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/comprehensive/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/complex/IsAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1936">
+            <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/complex/NumSimilarGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/BuildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/MergeTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/FindPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/offer/ReConstructBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/ligz/top/application/FindPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
