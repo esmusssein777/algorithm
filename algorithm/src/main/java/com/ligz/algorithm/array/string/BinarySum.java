@@ -12,6 +12,12 @@ import java.math.BigInteger;
  * 输出: "100"
  */
 public class BinarySum {
+	/**
+	 * 目标：二进制求和
+	 * 分析：不可以转成long的话，就使用charAt()计算下标
+	 * 关键：使用StringBuild来记录每一位的结果，最后reverse()
+	 * Time=O(n),Space=O(n)
+	 */
 	public String addBinary(String a, String b) {
 		StringBuilder sb = new StringBuilder();
 		int i = a.length() - 1, j = b.length() -1, carry = 0;

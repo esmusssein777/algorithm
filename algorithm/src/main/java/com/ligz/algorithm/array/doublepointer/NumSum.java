@@ -12,19 +12,13 @@ package com.ligz.algorithm.array.doublepointer;
  * 解释: 2 与 7 之和等于目标数 9 。因此 index1 = 1, index2 = 2 。
  */
 public class NumSum {
-	public int[] twoSum(int[] numbers, int target) {
-
-		for(int i = 0; i < numbers.length - 1; i++){
-			for(int j = i + 1; j < numbers.length; j++){
-				if(numbers[i] + numbers[j] == target){
-					int[] index = {i + 1, j + 1};
-					return index;
-				}
-			}
-		}
-		return new int[0];
-	}
-
+	/**
+	 * 目标：找到升序排列两个数使得它们相加之和等于目标数
+	 * 分析：可以使用双指针来找
+	 * 错误：使用O(n^2)复杂度来查找
+	 * 关键：不管是不是升序列表，都可以使用双指针
+	 * Time=O(n),Space=O(1)
+	 */
 	public int[] twoSum2(int[] num, int target) {//leetcode
 		int[] indice = new int[2];
 		if (num == null || num.length < 2) return indice;

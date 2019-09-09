@@ -10,6 +10,12 @@ package com.ligz.algorithm.array.string;
  * author:ligz
  */
 public class AddStrings {
+    /**
+     * 目标：字符串相加
+     * 分析：不可以转成long的话，就使用charAt()计算下标
+     * 关键：使用StringBuild来记录每一位的结果，最后reverse()
+     * Time=O(n),Space=O(n)
+     */
     public String addStrings(String num1, String num2) {
         StringBuilder sb = new StringBuilder();
         int sum = 0, len1 = num1.length() - 1, len2 = num2.length() - 1;
