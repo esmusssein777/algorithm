@@ -1,5 +1,9 @@
 package com.ligz.algorithm.array.string;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
 /**
  * 实现strStr()
  * 查找字符串
@@ -48,7 +52,24 @@ public class StrStr {
 	}
 
 	public static void main(String[] args) {
-		StrStr s = new StrStr();
-		s.strStr("hello","ll");
+		Scanner sc = new Scanner(System.in);
+		while (sc.hasNext()) {
+			int size = sc.nextInt();
+			Map<Integer, Integer> map = new HashMap<>();
+			for (int i = 0; i < size; i++) {
+				String str = sc.nextLine();
+				String[] s = str.split(" ");
+				int key = Integer.parseInt(s[0]);
+				int value = Integer.parseInt(s[1]);
+				if (!map.containsKey(key)) {
+					map.put(key, value);
+				} else {
+					map.put(key, map.get(key) + value);
+				}
+			}
+			for (Map.Entry entry : map.entrySet()) {
+				System.out.println(entry.getKey() + " " + entry.getValue());
+			}
+		}
 	}
 }

@@ -25,7 +25,11 @@ public class Heap implements Sort{
         return arr;
     }
 
-    private void exch(int[] arr, int i, int j) { int temp = arr[i]; arr[i] = arr[j]; arr[j] = temp; };
+    private void exch(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    };
 
     private void sink(int[] arr, int i, int j) {
         while (i * 2 <= j) {
