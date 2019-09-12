@@ -1,7 +1,5 @@
 package com.ligz.algorithm.array;
 
-import java.util.Scanner;
-
 /**
  * 最长回文字符串
  * author:ligz
