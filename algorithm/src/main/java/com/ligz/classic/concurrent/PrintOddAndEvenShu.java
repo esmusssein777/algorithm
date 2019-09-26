@@ -1,4 +1,4 @@
-package com.ligz.concurrent;
+package com.ligz.classic.concurrent;
 
 /**
  * @author: ligz
